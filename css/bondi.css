@@ -6,8 +6,9 @@
 }
 
 .main-btn {
-  color: var(--yellow-color);
-  background-color: var(--red-color);
+  background-color: var(--red-color) !important;
+  color: var(--yellow-color) !important;
+  padding: 0.5rem 1rem;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -36,3 +37,14 @@ body {
 .navbar .navbar-toggler:focus {
   box-shadow: none;
 }
+/* End NavBar */
+/* Start Landing */
+.landing {
+  background: var(--primary-color);
+  min-height: calc(100vh - 60px);
+}
+.landing h1 {
+  font-size: 3.125rem;
+}
+
+/* End Landing */
