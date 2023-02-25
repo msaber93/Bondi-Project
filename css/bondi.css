@@ -3,12 +3,23 @@
   --green-color: #33d1cc;
   --red-color: #ff3150;
   --yellow-color: #ffc400;
+  --section-color: #eff7fa;
 }
 
 .main-btn {
   background-color: var(--red-color) !important;
   color: var(--yellow-color) !important;
   padding: 0.5rem 1rem;
+}
+.main-title::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 2px;
+  background: var(--green-color);
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -48,3 +59,24 @@ body {
 }
 
 /* End Landing */
+/* Start Features */
+.features .icon-holder {
+  height: 200px;
+}
+.features .icon-holder svg {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.features .icon-holder .number {
+  font-size: 12rem;
+  color: var(--section-color);
+}
+.features .icon-holder .icon {
+  color: var(--green-color);
+  position: absolute;
+  bottom: 10px;
+} 
+.features .feat h4 {
+  color: var(--yellow-color);
+}
+/* End Features */
