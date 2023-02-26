@@ -80,3 +80,41 @@ body {
   color: var(--yellow-color);
 }
 /* End Features */
+/* Our Works */
+.our-works {
+  background: var(--section-color);
+}
+.our-works ul .active {
+  background: var(--red-color);
+  color: var(--yellow-color);
+}
+.our-works ul li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.our-works ul li:not(.active):hover {
+  color: var(--red-color);
+}
+.our-works .box {
+  position: relative;
+  padding: 5px;
+  overflow: hidden;
+}
+.our-works .box::before {
+  content: attr(data-work);
+  position: absolute;
+  color: var(--section-color);
+  background: var(--green-color);
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  transition: 0.3s;
+  transform: translateX(calc(-100% - 10px));
+}
+.our-works .box:hover::before {
+  transform: translateX(0);
+}
+/* End Our Works */
