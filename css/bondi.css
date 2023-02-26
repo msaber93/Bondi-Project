@@ -118,3 +118,8 @@ body {
   transform: translateX(0);
 }
 /* End Our Works */
+/* Stuff Section */
+.stuff .container .para {
+  width: 450px;
+}
+/* Stuff Section */
