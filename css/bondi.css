@@ -141,3 +141,25 @@ body {
 .project h2 {
   color: var(--section-color);
 }
+/* Subscribe Section */
+.subscribe {
+  background: var(--yellow-color);
+}
+.subscribe .input-log {
+  width: 100%;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid white;
+}
+.subscribe .input-log::placeholder {
+  color: white;
+}
+.subscribe .input-log:focus {
+  outline: none;
+}
+.subscribe input[type="submit"] {
+  background: var(--primary-color);
+  color: var(--yellow-color);
+}
+
+/* Subscribe Section */
