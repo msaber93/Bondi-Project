@@ -135,3 +135,9 @@ body {
   color: var(--section-color);
 }
 /* end team section */
+.project {
+  background: var(--primary-color) ;
+}
+.project h2 {
+  color: var(--section-color);
+}
