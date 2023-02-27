@@ -161,5 +161,34 @@ body {
   background: var(--primary-color);
   color: var(--yellow-color);
 }
+/* Footer Section  */
+.footer {
+  background: var(--primary-color);
+}
+.footer .copyright .author {
+  color: var(--green-color);
+}
+.footer .copyright .project-name {
+  color: var(--yellow-color);
+}
+.footer .contact ul .facebook,
+.footer .contact ul .twitter,
+.footer .contact ul .instgram,
+.footer .contact ul .youtube {
+  font-size: 1.7rem;
+}
+.footer .contact ul .facebook {
+  color: #1877f2;
+}
+.footer .contact ul .twitter {
+  color: #1da1f2;
+}
+.footer .contact ul .instgram {
+  color: #e1306c;
+}
+.footer .contact ul .youtube {
+  color: #ff0000;
+}
+/* Footer Section  */
 
 /* Subscribe Section */
